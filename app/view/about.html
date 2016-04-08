@@ -1,0 +1,34 @@
+<!-- View partial for person details -->
+<div class="info_pertion clearfix">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img ng-src="{{person.image}}" alt="" class="img-responsive">
+    </a>
+  </div>
+  <div class="col-xs-12 col-md-9">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">{{person.fullName}}</h3>
+      </div>
+      <div class="panel-body">
+        <dl class="dl-horizontal">
+          <dt><span>Name</span></dt>
+            <dd><span>{{person.codeName}}</span></dd>
+          <dt>Employee Code</dt>
+            <dd><span>{{person.empCode}}</span></dd>
+          <dt>Job Title</dt>
+            <dd>{{person.jobTitle}}</dd>
+          <dt>Work Email</dt>
+            <dd>{{person.workEmail}}</dd>
+          <dt>Personal Email</dt>
+            <dd>{{person.personalEmail}}</dd>
+          <dt>Phone Number</dt>
+            <dd>{{person.phoneNumber}}</dd>
+          <dt>CV</dt>
+            <dd>{{person.cvUrl}}</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
